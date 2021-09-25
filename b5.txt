@@ -1,0 +1,6 @@
+git init : Khởi tạo 1 git repository 1 project mới hoặc đã có.
+git status : Check trạng thái của những file đã thay đổi trong thư mục làm việc.
+git add . : Thêm thay đổi đến stage/index trong thư mục làm việc.
+git commit -m : Ghi lại việc thêm/ thay đổi file hay thư mục vào repository thì sẽ thực hiện thao tác. Khi thực hiện commit, trong repository sẽ tạo ra commit (hoặc revision) đã ghi lại sự khác biệt từ trạng thái đã commit lần trước đến trạng thái hiện tại.
+git remote : Quản lý tập hợp các kho lưu trữ được theo dõi, quản lý tập hợp các kho lưu trữ (“điều khiển từ xa”) có các nhánh mà bạn theo dõi.
+git push origin master : Là một lệnh có nội dung "Đẩy các xác nhận trong nhánh cục bộ có tên master vào điều khiển từ xa có tên Origin". Khi điều này được thực thi, tất cả nội dung đã đồng bộ hóa lần cuối với Origin sẽ được gửi đến kho lưu trữ từ xa và những người khác sẽ có thể thấy chúng ở đó. 
